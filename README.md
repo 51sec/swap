@@ -17,8 +17,8 @@ wget https://raw.githubusercontent.com/51sec/swap/main/swap.sh && bash swap.sh
 Here is the running output example from above command:
 
 
-root@ip-172-31-17-231:/opt# bash swap.sh
-———————————————————————————————————————
+root@ip-172-31-17-231:/opt# bash swap.sh \
+——————————————————————————————————————— \
 Linux VPS One Command Script to Set/Delete Swap
 1. Add swap
 2. Delete swap
