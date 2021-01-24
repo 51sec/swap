@@ -1,11 +1,14 @@
 # swap
-script to create swap file and change priority to 100
+This is a script to create swap file and change swap priority to 100 in your Linux VPS.
 
 
 Original script is from: https://yun.94ish.me/sh/swap.sh
 
-This version is modified priority from 0 to 100, also translated to English with more detailed instruction and explanation. 
+This version is modified two things:
+1. priority changed from 0 to 100, 
+2. translate Chinese to English with more detailed instruction and explanation. 
 
+Running Method: 
 From Linux root command line, copy following line and follow the instruction:
 
 wget https://raw.githubusercontent.com/51sec/swap/main/swap.sh && bash swap.sh
