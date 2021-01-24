@@ -34,7 +34,7 @@ if [ $? -ne 0 ]; then
         chmod 600 /swapfile
         mkswap /swapfile
         swapon /swapfile
-        echo '/swapfile none swap defaults 0 0' >> /etc/fstab
+        echo '/swapfile none swap defaults 0 100' >> /etc/fstab
          echo -e "${Green}swapfile successful created, checking information：${Font}"
          cat /proc/swaps
          cat /proc/meminfo | grep Swap
