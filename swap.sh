@@ -42,8 +42,8 @@ if [ $? -ne 0 ]; then
         echo 'vm.swappiness=10' | sudo tee -a /etc/sysctl.conf
         sudo sysctl vm.vfs_cache_pressure=50
         echo 'vm.vfs_cache_pressure=100' | sudo tee -a /etc/sysctl.conf
-        sudo sysctl vm.overcommit_memory =1
-        echo 'vm.overcommit_memory =1' | sudo tee -a /etc/sysctl.conf
+        sudo sysctl vm.overcommit_memory=1
+        echo 'vm.overcommit_memory=1' | sudo tee -a /etc/sysctl.conf
 
 else
         echo -e "${Red}swapfile exists，swap configing failed. Please delete swapfile first then run swap.sh again！${Font}"
